@@ -1,0 +1,5 @@
+C:\WinFormNCapas\NcapasBasico\Datos\bin\Debug\Datos.dll
+C:\WinFormNCapas\NcapasBasico\Datos\bin\Debug\Datos.pdb
+C:\WinFormNCapas\NcapasBasico\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\WinFormNCapas\NcapasBasico\Datos\obj\Debug\Datos.dll
+C:\WinFormNCapas\NcapasBasico\Datos\obj\Debug\Datos.pdb

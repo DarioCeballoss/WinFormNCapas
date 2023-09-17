@@ -9,8 +9,8 @@ namespace Datos
 {
     class CD_Conexion
     {
-        //Cadena conexion
-        private SqlConnection Conexion = new SqlConnection("Server=DESKTOP-UEPK13H\\RONETJOHN;DataBase= Practica;Integrated Security=true");
+        //Cadena conexion // Comentario de Dario : pongan el server que hicimos en la clase de SQL - la base de datos la crean con "SQL server magnament studio"
+        private SqlConnection Conexion = new SqlConnection("Server=DESKTOP-6U8Q54U\\SQLEXPRESS;DataBase= Practica;Integrated Security=true");
         //Abre conexion
         public SqlConnection AbrirConexion()
         {

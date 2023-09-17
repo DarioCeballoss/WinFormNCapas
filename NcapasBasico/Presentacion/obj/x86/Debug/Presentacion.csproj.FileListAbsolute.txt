@@ -1,0 +1,12 @@
+C:\WinFormNCapas\NcapasBasico\Presentacion\obj\x86\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\WinFormNCapas\NcapasBasico\Presentacion\obj\x86\Debug\Presentacion.Form1.resources
+C:\WinFormNCapas\NcapasBasico\Presentacion\obj\x86\Debug\Presentacion.Properties.Resources.resources
+C:\WinFormNCapas\NcapasBasico\Presentacion\obj\x86\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\WinFormNCapas\NcapasBasico\Presentacion\bin\Debug\Presentacion.exe
+C:\WinFormNCapas\NcapasBasico\Presentacion\bin\Debug\Presentacion.pdb
+C:\WinFormNCapas\NcapasBasico\Presentacion\bin\Debug\Negocio.dll
+C:\WinFormNCapas\NcapasBasico\Presentacion\bin\Debug\Datos.dll
+C:\WinFormNCapas\NcapasBasico\Presentacion\bin\Debug\Negocio.pdb
+C:\WinFormNCapas\NcapasBasico\Presentacion\bin\Debug\Datos.pdb
+C:\WinFormNCapas\NcapasBasico\Presentacion\obj\x86\Debug\Presentacion.exe
+C:\WinFormNCapas\NcapasBasico\Presentacion\obj\x86\Debug\Presentacion.pdb

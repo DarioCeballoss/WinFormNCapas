@@ -1,0 +1,7 @@
+C:\WinFormNCapas\NcapasBasico\Negocio\bin\Debug\Negocio.dll
+C:\WinFormNCapas\NcapasBasico\Negocio\bin\Debug\Negocio.pdb
+C:\WinFormNCapas\NcapasBasico\Negocio\bin\Debug\Datos.dll
+C:\WinFormNCapas\NcapasBasico\Negocio\bin\Debug\Datos.pdb
+C:\WinFormNCapas\NcapasBasico\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\WinFormNCapas\NcapasBasico\Negocio\obj\Debug\Negocio.dll
+C:\WinFormNCapas\NcapasBasico\Negocio\obj\Debug\Negocio.pdb
