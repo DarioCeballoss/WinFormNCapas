@@ -5,3 +5,10 @@ c:\NcapasIntermedio\Presentacion\bin\Debug\Presentacion.exe
 c:\NcapasIntermedio\Presentacion\bin\Debug\Presentacion.pdb
 c:\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.exe
 c:\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.pdb
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.exe
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.pdb
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\bin\Debug\Presentacion.exe
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\bin\Debug\Presentacion.pdb
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.LogIn.resources
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.Properties.Resources.resources
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.csproj.GenerateResource.Cache
