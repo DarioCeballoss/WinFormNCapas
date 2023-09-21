@@ -12,3 +12,9 @@ C:\WinFormNCapas\NcapasIntermedio\Presentacion\bin\Debug\Presentacion.pdb
 C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.LogIn.resources
 C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.Properties.Resources.resources
 C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\bin\Debug\Negocio.dll
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\bin\Debug\Negocio.pdb
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\obj\x86\Debug\Presentacion.MenuLateral.resources
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\bin\Debug\Datos.dll
+C:\WinFormNCapas\NcapasIntermedio\Presentacion\bin\Debug\Datos.pdb

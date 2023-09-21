@@ -7,14 +7,17 @@ using System.Data.SqlClient;
 namespace Datos
 {
     public abstract class Conexion
-    {
-        private readonly string connectionString;
+    {   
+        private string connectionString;
+        //private string connectionString = "Server=DESKTOP-VN9ML1G\\SQLEXPRESS;DataBase= MyCompany;Integrated Security=true";
 
-        public ConnectionToSql(){
-            connectionString = "Server=DESKTOP-6U8Q54U\\SQLEXPRESS;DataBase= Practica;Integrated Security=true";
+        public void ConnectionToSql()
+        {
+            connectionString = "Server=DESKTOP-VN9ML1G\\SQLEXPRESS;DataBase= MyCompany;Integrated Security=true";
         }
 
         protected SqlConnection GetConnection(){
+            ConnectionToSql();
             return new SqlConnection(connectionString);
         }
     }

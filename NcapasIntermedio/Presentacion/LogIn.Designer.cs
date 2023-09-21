@@ -30,16 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogIn));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContra = new System.Windows.Forms.TextBox();
-            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.linkContra = new System.Windows.Forms.LinkLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblErrorLogin = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,6 +57,17 @@
             this.panel1.Size = new System.Drawing.Size(200, 250);
             this.panel1.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Leelawadee UI", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(11, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(186, 128);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "CD";
+            // 
             // shapeContainer1
             // 
             this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
@@ -67,6 +79,16 @@
             this.shapeContainer1.Size = new System.Drawing.Size(600, 250);
             this.shapeContainer1.TabIndex = 1;
             this.shapeContainer1.TabStop = false;
+            // 
+            // lineShape2
+            // 
+            this.lineShape2.BorderColor = System.Drawing.Color.White;
+            this.lineShape2.Enabled = false;
+            this.lineShape2.Name = "lineShape2";
+            this.lineShape2.X1 = 265;
+            this.lineShape2.X2 = 519;
+            this.lineShape2.Y1 = 128;
+            this.lineShape2.Y2 = 128;
             // 
             // lineShape1
             // 
@@ -106,16 +128,6 @@
             this.txtContra.Enter += new System.EventHandler(this.txtContra_Enter);
             this.txtContra.Leave += new System.EventHandler(this.txtContra_Leave);
             // 
-            // lineShape2
-            // 
-            this.lineShape2.BorderColor = System.Drawing.Color.White;
-            this.lineShape2.Enabled = false;
-            this.lineShape2.Name = "lineShape2";
-            this.lineShape2.X1 = 265;
-            this.lineShape2.X2 = 519;
-            this.lineShape2.Y1 = 128;
-            this.lineShape2.Y2 = 128;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -126,17 +138,6 @@
             this.label1.Size = new System.Drawing.Size(72, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "LOGIN";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Leelawadee UI", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(11, 61);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(186, 128);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "CD";
             // 
             // btnLogin
             // 
@@ -152,6 +153,7 @@
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "ACEPTAR";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // linkContra
             // 
@@ -175,12 +177,24 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // lblErrorLogin
+            // 
+            this.lblErrorLogin.AutoSize = true;
+            this.lblErrorLogin.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblErrorLogin.Location = new System.Drawing.Point(265, 162);
+            this.lblErrorLogin.Name = "lblErrorLogin";
+            this.lblErrorLogin.Size = new System.Drawing.Size(35, 13);
+            this.lblErrorLogin.TabIndex = 8;
+            this.lblErrorLogin.Text = "label3";
+            this.lblErrorLogin.Visible = false;
+            // 
             // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(600, 250);
+            this.Controls.Add(this.lblErrorLogin);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.linkContra);
             this.Controls.Add(this.btnLogin);
@@ -215,5 +229,6 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.LinkLabel linkContra;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblErrorLogin;
     }
 }
